@@ -1,0 +1,24 @@
+= クロスコンパイル用Chefレシピの件
+
+Ruby-GNOME2のクロスコンパイル用レシピを作りかけている話。
+
+== 作者向け
+
+=== 表示
+
+  rake
+
+=== 公開
+
+  rake publish
+
+== 閲覧者向け
+
+=== インストール
+
+  gem install rabbit-slide-myokoym-chef-casual-talks-sapporo-1
+
+=== 表示
+
+  rabbit rabbit-slide-myokoym-chef-casual-talks-sapporo-1.gem
+

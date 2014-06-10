@@ -1,0 +1,64 @@
+= クロスコンパイル用Chefレシピの件
+
+# : subtitle
+#    サブタイトル
+: author
+   @myokoym
+: institution
+   Ruby-GNOME2 Project Team
+: content-source
+   Chef Casual Talks Sapporo Vol.1
+: date
+   2014/06/11
+: allotted-time
+   10m
+: theme
+   nyankosakana
+
+= 自己紹介
+
+    # image
+    # src = images/my-icon.png
+    # relative_width = 20
+    # align = right
+    # relative_margin_right = -10
+
+  * 横山昌史（@myokoym）
+  * Ruby-GNOME2 Project Team
+  * rcairo committer
+    * http://rcairo.github.io/
+  * Groonga勉強会＠札幌 主催
+
+= Ruby Kaja 2013
+
+  # image
+  # src = images/ruby-kaja-2013.jpg
+  # relative_height = 100
+
+= よろしくお願いします。\n\nm(_ _)m
+
+= 本日ご紹介するのは
+
+= とある((*作りかけ*))の\nChefレシピです。
+
+= chef-ruby-gnome2
+
+(('tag:center'))
+(('note:https://github.com/myokoym/chef-ruby-gnome2'))
+
+= Ruby-GNOME2とは
+
+  # blockquote
+  Ruby-GNOME2はGNOMEで使用されるGTK+などの主要なライブラリの
+  Rubyバインディング集です。
+
+  (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
+
+= Ruby-GNOME2とは
+
+  # blockquote
+  GTK+はマルチプラットフォーム対応のGUIツールキットなので、マ
+  ルチプラットフォーム対応のGUIアプリケーションをRubyで書くこ
+  とができます。
+
+  (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))

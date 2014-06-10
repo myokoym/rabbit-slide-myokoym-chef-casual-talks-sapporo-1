@@ -1,0 +1,23 @@
+---
+id: chef-casual-talks-sapporo-1
+base_name: recipe-for-ruby-gnome2
+tags:
+- rabbit
+- chef
+- ruby-gnome2
+presentation_date: 2014/06/11
+version: 2014.6.11.0
+licenses:
+- CC BY 4.0
+slideshare_id: 
+speaker_deck_id: 
+ustream_id: 
+vimeo_id: 
+youtube_id: 
+author:
+  markup_language: :rd
+  name: Masafumi Yokoyama
+  email: myokoym@gmail.com
+  rubygems_user: myokoym
+  slideshare_user: myokoym
+  speaker_deck_user: myokoym
