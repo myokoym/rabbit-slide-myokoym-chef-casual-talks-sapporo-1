@@ -62,3 +62,16 @@
   とができます。
 
   (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
+
+= gem list gtk3
+
+    gtk3 (2.2.0 x86-mingw32)
+
+= x86-mingw32
+
+= x86-mingw32
+
+  * Windows向けにコンパイル済みのgemに表示される
+  * 32bit向けはx86から始める
+    * 64bit向けはx64
+  * mingw32はWindows向けの印
