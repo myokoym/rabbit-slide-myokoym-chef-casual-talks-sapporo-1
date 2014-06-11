@@ -1,9 +1,9 @@
-= クロスコンパイル用Chefレシピの件
+= クロスコンパイル用\nChefレシピの件
 
 # : subtitle
 #    サブタイトル
 : author
-   @myokoym
+   横山 昌史
 : institution
    Ruby-GNOME2 Project Team
 : content-source
@@ -23,7 +23,7 @@
     # align = right
     # relative_margin_right = -10
 
-  * 横山昌史（@myokoym）
+  * Masafumi Yokoyama\n（@myokoym）
   * Ruby-GNOME2 Project Team
   * rcairo committer
     * http://rcairo.github.io/
@@ -63,15 +63,58 @@
 
   (('note:http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/49734'))
 
-= gem list gtk3
+= gem list gtk3 -r
 
-    gtk3 (2.2.0 x86-mingw32)
+    gtk3 (2.2.0 ruby x86-mingw32)
 
-= x86-mingw32
+= x86-mingw32…？
 
 = x86-mingw32
 
   * Windows向けにコンパイル済みのgemに表示される
-  * 32bit向けはx86から始める
-    * 64bit向けはx64
-  * mingw32はWindows向けの印
+    * 拡張ライブラリはコンパイルが必要
+    * 32bit向けはx86から始まる
+      * 64bit向けはx64
+    * mingw32はWindows向けの印
+
+= Windows向けに\nコンパイル
+
+= Windows向けにコンパイル
+
+  * Windowsでコンパイル
+    * Windows持ってない
+  * Linuxでクロスコンパイル
+    * 対象プラットフォーム以外でコンパイル
+
+= クロスコンパイル
+
+  * 専用パッケージが必要
+  * 準備が大変
+
+= 準備が大変
+
+  * 自動化したい
+
+= そこで…
+
+= Chef
+
+== プロパティー
+
+: as_large_as_possible
+   true
+
+= 参考にした本（去年）
+
+(('tag:center'))
+入門Chef Solo -\n
+Infrastructure as Code\n
+（達人出版会）
+
+= 前置きおわり
+
+  * 時間までGitHubのリポジトリーを眺めます
+    *（今年に入ってから触っていないので、作者も忘れている）
+
+(('tag:center'))
+(('note:https://github.com/myokoym/chef-ruby-gnome2'))
